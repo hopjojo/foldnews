@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical">
+
+    <android.support.v7.widget.Toolbar
+        android:id="@+id/toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="?attr/actionBarSize"
+        android:background="?attr/colorPrimary"
+        app:layout_scrollFlags="scroll|enterAlways"
+        android:theme="@style/ThemeOverlay.AppCompat.Dark.ActionBar"
+        app:titleTextColor="@color/white"/>
+
+    <ProgressBar
+        android:id="@+id/myProgressBar"
+        style="?android:attr/progressBarStyleHorizontal"
+        android:layout_width="match_parent"
+        android:layout_height="5px"
+        android:progressDrawable="@drawable/layer_progress" />
+
+    <com.tencent.smtt.sdk.WebView
+    android:id="@+id/web_content"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" />
+    <!--<net.soulwolf.wvjsbridge.qqx5tbs.WJBridgeX5WebView-->
+    <!--android:id="@+id/web_content"-->
+    <!--android:layout_width="match_parent"-->
+    <!--android:layout_height="match_parent"/>-->
+    <!--<com.cms.activity.corporate_club_versign.browserfun.CustomSwipeRefreshLayout-->
+    <!--android:id="@+id/swipe_container"-->
+    <!--android:layout_width="match_parent"-->
+    <!--android:layout_height="match_parent">-->
+    <!--<net.soulwolf.wvjsbridge.qqx5tbs.WJBridgeX5WebView-->
+        <!--android:id="@+id/web_content"-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="match_parent"/>-->
+    <!--<net.soulwolf.wvjsbridge.WJBridgeWebView-->
+    <!--android:id="@+id/web_content"-->
+    <!--android:layout_width="match_parent"-->
+    <!--android:layout_height="match_parent"-->
+    <!--android:layerType="software" />-->
+    <!--</com.cms.activity.corporate_club_versign.browserfun.CustomSwipeRefreshLayout>-->
+</LinearLayout>

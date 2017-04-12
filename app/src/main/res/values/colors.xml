@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!--3F51B5-->
+    <color name="colorPrimary">#FF0000</color>
+    <!--303F9F-->
+    <color name="colorPrimaryDark">#C50000</color>
+    <color name="colorAccent">#FF4081</color>
+    <color name="tabselect">#FFC47B</color>
+    <color name="black">#000000</color>
+    <color name="subtim_gray">#787C7F</color>
+    <color name="white">#FFFFFF</color>
+</resources>
